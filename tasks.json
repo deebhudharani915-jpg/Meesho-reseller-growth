@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "1. Generate dataset", "type": "shell", "command": "python data/generate_dataset.py"},
+    {"label": "2. Run SQL outputs", "type": "shell", "command": "python part1_sql/run_queries.py"},
+    {"label": "3. Run Part 2 tests", "type": "shell", "command": "python part2_engine/test_growth_engine.py"},
+    {"label": "4. Run masking checks", "type": "shell", "command": "python part3_narrative/masking.py"}
+  ]
+}
